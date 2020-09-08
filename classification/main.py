@@ -86,7 +86,7 @@ def main():
         solver.test(0)
     else:
         count = 0
-        for t in xrange(args.max_epoch):
+        for t in range(args.max_epoch):
             if not args.one_step:
                 num = solver.train(t, record_file=record_train)
             else:
@@ -100,3 +100,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+import sys

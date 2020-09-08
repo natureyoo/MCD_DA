@@ -1,6 +1,6 @@
 import sys
 
-sys.path.append('../loader')
+sys.path.append('./datasets/')
 from unaligned_data_loader import UnalignedDataLoader
 from svhn import load_svhn
 from mnist import load_mnist
