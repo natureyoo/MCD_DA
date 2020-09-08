@@ -3,7 +3,7 @@ import numpy as np
 import sys
 
 sys.path.append('../utils/')
-from utils.utils import dense_to_one_hot
+from utils import dense_to_one_hot
 
 def load_svhn():
     svhn_train = loadmat('./data/train_32x32.mat')
